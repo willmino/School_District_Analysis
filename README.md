@@ -32,6 +32,7 @@ So, we used the function `student_df = student_df.dropna()` to eliminate this mi
 
 ![schooltype_gb_mean](https://github.com/willmino/School_District_Analysis/blob/main/schooltype_gb_mean_.png)
 
+- Drilling down even further into the math score data subset, we can see in the dataframe output below that the student math score by grade does not really have an influence on the total average math score. Even though grade 12 math scores at Charter schools are the lowest, Charter schools still have a higher math score for every other grade in addition to the Charter school overall higher math score.
 
 ![schooltype_grade_mathscore](https://github.com/willmino/School_District_Analysis/blob/main/schooltype_grade_mathscore.png)
 When you compare this table with the dataframe output from Deliverable 5 question #3, as shown below, 
