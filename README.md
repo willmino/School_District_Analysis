@@ -33,3 +33,5 @@ So, we used the function `student_df = student_df.dropna()` to eliminate this mi
 ![schooltype_grade_mathscore](https://github.com/willmino/School_District_Analysis/blob/main/schooltype_grade_mathscore.png)
 
 
+![schooltype_gb_mean)(https://github.com/willmino/School_District_Analysis/blob/main/schooltype_gb_mean_.png)
+
