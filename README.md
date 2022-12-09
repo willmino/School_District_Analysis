@@ -31,3 +31,5 @@ So, we used the function `student_df = student_df.dropna()` to eliminate this mi
 - I liked this dataframe output because we could observe all of the schools and all of the corresponding, school types, reading scores, math scores, and school budgets. When you compare this table with the dataframe output from Deliverable 5 question #3, as shown below, 
 
 ![schooltype_grade_mathscore](https://github.com/willmino/School_District_Analysis/blob/main/schooltype_grade_mathscore.png)
+
+![schooltype_gb_mean](
