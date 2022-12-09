@@ -5,7 +5,7 @@
 
 
 ##Purpose
-- The purpose of this analysis was to help Maria, a chief Data scientist, with analyzing student standardized test data and presenting the findings and key insights to the county district. The takeaways from the analysis will help key make key decisions for each underlying school and the overall district.
+- The purpose of this analysis was to help Maria, a chief Data scientist, with analyzing student standardized test data and presenting the findings and key insights to the county district. The takeaways from the analysis will help key make key decisions for schools within this district.
 
 - To help Maria, I read the standardized test data from csv format into jupyter notbook in a pandas dataframe format. We cleaned the data by looking for both missing values and duplicated information and then eliminated them. We analyzed the data by summarizing high level data statistics (such as min, max, mean, and sums of particular datasets) and drilled down into the data to identify subsets of interest. Finally, we made comparisons between subsets of interest to uncover some key insights pertaining to standardized testing.
 
