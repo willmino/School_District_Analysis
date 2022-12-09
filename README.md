@@ -12,6 +12,7 @@
 ## Analysis
 
 - Before beginning the analysis, we loaded the csv file into the pandas dataframe in Jupyter Notebook. This was accomplished by:
+
 `full_student_data = os.path.join('../Resources/new_full_student_data.csv')`
 
 `student_df = pd.read_csv(full_student_data)`
