@@ -13,13 +13,16 @@
 
 - Before beginning the analysis, we loaded the csv file into the pandas dataframe in Jupyter Notebook. This was accomplished by:
 `full_student_data = os.path.join('../Resources/new_full_student_data.csv')`
+
 `student_df = pd.read_csv(full_student_data)`
+
 `student_df.head()`
+
 - The list line of code listed above allowed us to check if the data was successfully imported into a dataframe.
 -We cleaned the data by looking for the total number of rows per column that had missing data: `student_df.isna().sum()`. This output showed that there was missing data for rows in the columns `student_df["reading_score"] and student_df["math_score"]`. 
 So, we used the function `student_df = student_df.dropna()` to eliminate this missing data. The same process was repeated for finding duplicated data. To do this, we used `.duplicated.sum()` and `.drop_duplicates()` instead. Running the`.sum()` function was performed after eliminating the data and we verified that there was a zero value for missing data and dulicates.
  
--After cleaning the data, we were able to begin our analysis. We started by viewing a high level statistical summary of all data in the dataframe using the code: `student_df.describe()`. We could use the mean values in the columns for "reading_Score", "math_score", and "school_budget" to begin formulating what parts of the data we should drill down into. 
+- After cleaning the data, we were able to begin our analysis. We started by viewing a high level statistical summary of all data in the dataframe using the code: `student_df.describe()`. We could use the mean values in the columns for "reading_Score", "math_score", and "school_budget" to begin formulating what parts of the data we should drill down into. 
 
 
 
