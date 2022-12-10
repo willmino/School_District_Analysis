@@ -1,10 +1,10 @@
 
 # School-District-Analysis
 
-##Overview
+## Overview
 
 
-##Purpose
+## Purpose
 - The purpose of this analysis was to help Maria, a chief Data scientist, with analyzing student standardized test data and presenting the findings and key insights to the county district. The takeaways from the analysis will help key make key decisions for schools within this district.
 
 - To help Maria, I read the standardized test data from csv format into jupyter notbook in a pandas dataframe format. We cleaned the data by looking for both missing values and duplicated information and then eliminated them. We analyzed the data by summarizing high level data statistics (such as min, max, mean, and sums of particular datasets) and drilled down into the data to identify subsets of interest. Finally, we made comparisons between subsets of interest to uncover some key insights pertaining to standardized testing.
@@ -40,7 +40,7 @@ So, we used the function `student_df = student_df.dropna()` to eliminate this mi
 
 ![schooltype_grade_mathscore](https://github.com/willmino/School_District_Analysis/blob/main/schooltype_grade_mathscore.png)
 
-##Summary
+## Summary
 
 - We found that Dixon high school had one of the lowest 10th grade reading scores in the district. The reading scores for this school's 10th graders was lower than the reading score which was specifically for all 9th graders and also lower than the reading score specifically for all combined 11th and 12th graders. This was also accompanied by the lowest reading score in the entire district coming from a 10th grade student at Dixon High School. We suggested to Maria that Dixon High School should re-evaluate the curriculum for its reading education program.
 
